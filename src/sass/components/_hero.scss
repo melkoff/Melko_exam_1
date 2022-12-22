@@ -1,5 +1,6 @@
 .hero {
-   
+   font-family: 'Garamond';
+
    &__line {
       border-top: 1px solid grey;
       max-width: 98%;
@@ -22,6 +23,7 @@
       h1 {
          font-size: 36px;
          margin-bottom: 20px;
+         font-weight: 600;
          @media screen and (max-width: 992px){
             font-size: 22px;
          }

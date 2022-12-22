@@ -1,0 +1,120 @@
+.features {
+   h2 {
+      font-size: 36px;
+      font-weight: 600;
+      text-align: center;
+      padding: 30px 0;
+      font-family: "Garamond";
+   }
+
+   &__line1 {
+      border-right: 2px solid black;
+      border-bottom: 2px solid black;
+      @media screen and (max-width: 576px) {
+         border-right: none;
+         width: 90%;
+         margin: 0 auto;
+      }
+      img{
+         padding: 10px 0;
+      }
+      p{
+         padding: 10px 0;
+      }
+   }
+
+   &__line2 {
+      border-bottom: 2px solid black;
+      @media screen and (max-width: 576px) {
+         width: 90%;
+         margin: 0 auto;
+      }
+      img{
+         padding: 10px 0;
+      }
+      p{
+         padding: 10px 0;
+      }
+   }
+
+   &__line3 {
+      border-left: 2px solid black;
+      border-bottom: 2px solid black;
+      @media screen and (max-width: 768px) {
+         border-right: 2px solid black;
+         border-bottom: none;
+         border-left: none;
+      }
+      @media screen and (max-width: 576px) {
+         border-right: none;
+         border-bottom: 2px solid black;
+         border-left: none;
+         width: 90%;
+         margin: 0 auto;
+      }
+      img{
+         padding: 10px 0;
+      }
+      p{
+         padding: 10px 0;
+      }
+   }
+
+   &__line4 {
+      border-right: 2px solid black;
+      @media screen and (max-width: 768px) {
+         border: none;
+      }
+      @media screen and (max-width: 576px) {
+         border-bottom: 2px solid black;
+         width: 90%;
+         margin: 0 auto;
+      }
+      img{
+         padding: 10px 0;
+      }
+      p{
+         padding: 10px 0;
+      }
+   }
+
+   &__line5 {
+      @media screen and (max-width: 768px) {
+         border-top: 2px solid black;
+         border-right: 2px solid black;
+      }
+      @media screen and (max-width: 576px) {
+         border-top: none;
+         border-right: none;
+         border-bottom: 2px solid black;
+         width: 90%;
+         margin: 0 auto;
+      }
+      img{
+         padding: 10px 0;
+      }
+      p{
+         padding: 10px 0;
+      }
+   }
+
+   &__line6 {
+      border-left: 2px solid black;
+      @media screen and (max-width: 768px) {
+         border-top: 2px solid black;
+         border-left: none;
+      }
+      @media screen and (max-width: 576px) {
+         border-top: none;
+         border-bottom: 2px solid black;
+         width: 90%;
+         margin: 0 auto;
+      }
+      img{
+         padding: 10px 0;
+      }
+      p{
+         padding: 10px 0;
+      }
+   }
+}

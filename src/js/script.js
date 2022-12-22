@@ -1,13 +1,3 @@
-// let slider = $(document).ready(function () {
-//   $('.your-class').slick({
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     arrows: true,
-//     dots: true,
-//     infinite: true
-//   });
-// });
-
 //burger menu
 'use strict';
 const humb = document.querySelector('#burger');
@@ -26,3 +16,13 @@ function humbHandler(e) {
   header.classList.toggle('active');
   window.scrollTo(0, 0);
 }
+
+//Slider
+
+$(document).ready(function () {
+  $('.gallery').slick({
+    dots: false,
+    adaptiveHeight: true,
+    slidesToShow: 3,
+  });
+})
