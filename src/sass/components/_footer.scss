@@ -1,4 +1,31 @@
 .footer{
-    background-color: black;
-    color: #fff;
+    &__media{
+        border-top: 2px solid grey;
+        padding: 30px 0;
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                a{
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        border: 2px solid black;
+                        border-radius: 50%;
+                        padding: 10px;
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__title{
+        p{
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid grey;
+            margin-bottom: 20px;
+        }
+    }
 }
