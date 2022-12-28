@@ -14,7 +14,7 @@
         border: 2px solid black;
         color: black;
         cursor: pointer;
-        padding: 15px;
+        padding: 10px 14px;
         &:hover{
             background-color: black;
             color: white;
@@ -100,6 +100,7 @@
                 }
 
                 &:hover {
+                    color: #6c757d;
                     text-decoration: underline;
                 }
             }

@@ -1,18 +1,18 @@
 .story {
-   font-family: 'Garamond';
+   font-family: "Garamond";
 
-   &__line{
+   &__line {
       height: 2px;
       background-color: #000;
       max-width: 98%;
       margin: 0 auto;
-      @media screen and (max-width: 1400px){
-         max-width: 97.50%;
+      @media screen and (max-width: 1400px) {
+         max-width: 97.5%;
       }
-      @media screen and (max-width: 992px){
+      @media screen and (max-width: 992px) {
          max-width: 96.66%;
       }
-      @media screen and (max-width: 768px){
+      @media screen and (max-width: 768px) {
          display: none;
       }
    }
@@ -20,7 +20,7 @@
    &__reverse {
       display: flex;
       align-items: center;
-      @media screen and (max-width: 768px){
+      @media screen and (max-width: 768px) {
          flex-direction: column;
       }
 
@@ -28,32 +28,58 @@
          height: 100%;
          max-width: 100%;
          display: flex;
-         @media screen and (max-width: 768px){
+         @media screen and (max-width: 768px) {
             padding: 30px 0;
          }
       }
 
-      h2{
+      h2 {
          font-size: 36px;
          margin-bottom: 20px;
          font-weight: 600;
          text-align: left;
          padding: 0;
-         @media screen and (max-width: 768px){
+         @media screen and (max-width: 768px) {
             font-size: 22px;
          }
       }
-   
+
       .story__main_text {
          font-size: 16px;
          margin-bottom: 15px;
       }
+
+      .btn-outline-secondary {
+         background-color: white;
+         border: 1px solid #6c757d;
+         color: #6c757d;
+         cursor: pointer;
+         padding: 6px 12px;
+         outline: none;
+         font-size: 15px;
+         transition: 0.4s;
+      }
+
+      .active,
+      .btn-outline-secondary:hover {
+         background-color: #6c757d;
+         color: white;
+         border: 1px solid #6c757d;
+      }
+
+      .more-text {
+         margin-top: 10px;
+         background-color: white;
+         max-height: 0;
+         overflow: hidden;
+         transition: max-height 0.2s ease-out;
+      }
    }
 
-   &__column_revers{
+   &__column_revers {
       display: flex;
       align-items: center;
-      @media screen and (max-width: 768px){
+      @media screen and (max-width: 768px) {
          flex-direction: column-reverse;
       }
 
@@ -61,25 +87,58 @@
          height: 100%;
          width: 100%;
          display: flex;
-         @media screen and (max-width: 768px){
+         @media screen and (max-width: 992px){
+            height: 193px;
+         }
+         @media screen and (max-width: 768px) {
+            height: 100%;
             padding: 30px 0;
          }
       }
 
-      h2{
+      h2 {
          font-size: 36px;
          margin-bottom: 20px;
          font-weight: 600;
          text-align: left;
          padding: 0;
-         @media screen and (max-width: 768px){
+         @media screen and (max-width: 768px) {
             font-size: 22px;
          }
       }
-   
+
       .story__second_text {
          font-size: 16px;
          margin-bottom: 15px;
+         @media screen and (max-width: 992px){
+            margin-bottom: 14px;
+         }
+      }
+
+      .btn-outline-secondary {
+         background-color: white;
+         border: 1px solid #6c757d;
+         color: #6c757d;
+         cursor: pointer;
+         padding: 6px 12px;
+         outline: none;
+         font-size: 15px;
+         transition: 0.4s;
+      }
+
+      .active,
+      .btn-outline-secondary:hover {
+         background-color: #6c757d;
+         color: white;
+         border: 1px solid #6c757d;
+      }
+
+      .more-second-text {
+         margin-top: 10px;
+         background-color: white;
+         max-height: 0;
+         overflow: hidden;
+         transition: max-height 0.2s ease-out;
       }
    }
 }
