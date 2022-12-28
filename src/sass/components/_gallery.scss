@@ -1,16 +1,20 @@
 .gallery{
    position: relative;
-}
 
-.gallery__line {
-   border-top: 1px solid grey;
-   max-width: 98%;
-   margin: 0 auto;
-   @media screen and (max-width: 1200px) {
-      max-width: 97%;
-   }
-   @media screen and (max-width: 768px) {
-      display: none;
+   &__line{
+      height: 2px;
+      background-color: #000;
+      max-width: 97.77%;
+      margin: 0 auto;
+      @media screen and (max-width: 1200px){
+         max-width: 97.50%;
+      }
+      @media screen and (max-width: 992px){
+         max-width: 96.66%;
+      }
+      @media screen and (max-width: 768px){
+         display: none;
+      }
    }
 }
 
