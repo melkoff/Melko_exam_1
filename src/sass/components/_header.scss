@@ -1,4 +1,19 @@
 .header {
+
+    #myBtn {
+        background-color: #fff;
+        background-color: lightgrey;
+        height: 70px;
+        width: 70px;
+        place-items: center;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+        text-decoration: none;
+        cursor: pointer;
+        transition: .3s;
+        border: 2px solid black;
+      }
+
     .header__logo {
         a {
             font-family: "Garamond";
