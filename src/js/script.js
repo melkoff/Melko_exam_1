@@ -24,5 +24,19 @@ $(document).ready(function () {
     dots: false,
     adaptiveHeight: true,
     slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        }
+      }, {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+
+    ]
   });
 })
